@@ -2,9 +2,27 @@
 
 ## Inputs
 
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|   INPUT    |  TYPE  | REQUIRED | DEFAULT |           DESCRIPTION            |
+|------------|--------|----------|---------|----------------------------------|
+| aws_region | string |   true   |         | The full name of the <br>region  |
+
+<!-- AUTO-DOC-INPUT:END -->
+
 ## Secrets
 
+<!-- AUTO-DOC-SECRETS:START - Do not remove or modify this section -->
+
+|        SECRET         | REQUIRED |      DESCRIPTION      |
+|-----------------------|----------|-----------------------|
+| aws_secret_access_key |   true   | AWS Secret Access Key |
+
+<!-- AUTO-DOC-SECRETS:END -->
+
 ## Outputs
+
+
 
 ## Example Usage
 
