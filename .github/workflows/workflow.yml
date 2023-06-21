@@ -1,0 +1,17 @@
+name: Ultra Reusable Workflow
+
+on:
+  workflow_call:
+    inputs:
+      aws_region:
+        description: The full name of the region
+        required: true
+        type: string
+
+jobs:
+  aws:
+    name: My AWS
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hi
+        run: echo "hi"
