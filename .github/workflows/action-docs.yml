@@ -12,6 +12,7 @@ jobs:
       - name: Update workflow docs
         uses: tj-actions/auto-doc@v2
         with:
+          filename: .github/workflows/workflow.yml
           reusable: true
       - name: Update readme in the repository
         if: github.event_name != 'pull_request'
