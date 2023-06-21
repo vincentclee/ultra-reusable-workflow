@@ -7,6 +7,10 @@ on:
         description: The full name of the region
         required: true
         type: string
+    secrets:
+      aws_secret_access_key:
+        description: AWS Secret Access Key
+        required: true
 
 jobs:
   aws:
